@@ -1,0 +1,92 @@
+.mobbgimage{
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif,'Open Sans', sans-serif;
+}
+header{
+    background-image:Url("images/bg-mobile.svg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.huddleIcon{
+    padding: 15pt;
+    width: 264;
+    height: 49pt
+}
+.mockups{
+    text-align: center;
+    width:709;
+    height:506
+}
+.FanCommunity h1,p{
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+}
+.registerbtn{
+    text-align: center;
+}
+button{
+    background-color: hsl(0, 0%, 100%);
+    height: 30pt;
+    width:160pt;
+    border-radius: 15pt;
+    color:hsl(257, 40%, 49%);
+
+}
+button:hover{
+    background-color:hsl(291, 30%, 95%)
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    color:hsl(0, 0%, 100%)
+}
+.attribution a { 
+    color: hsl(212, 94%, 50%); 
+}
+@media screen and (min-width:900px){
+    .mobbgimage{
+        background-color: hsl(257, 40%, 49%);
+        font-family: 'Poppins', sans-serif,'Open Sans', sans-serif;
+        background-image:Url("images/bg-desktop.svg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:fit-to-screen;
+    }
+    header{
+        background-image:none;
+        display: flex;
+        justify-content:stretch;
+        flex-direction: column;
+        position: absolute;
+    }
+    .mockups{
+        padding: 25pt;
+        margin-top: 0px;
+    }
+    main{
+        display: flex;
+        justify-content:stretch;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 900px;
+        margin-top: 230px;
+    }
+    .FanCommunity h1,p{
+        text-align: left;
+    }
+    .registerbtn{
+        text-align: left;
+    }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center;
+        color:hsl(0, 0%, 100%);
+        margin-top: 50px;
+    }
+    .social{
+        display:flex;
+        justify-content: end;
+        margin-left: 900px;
+        padding-top: 650px;
+    }
+}
